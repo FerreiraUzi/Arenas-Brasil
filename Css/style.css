@@ -20,8 +20,8 @@ body{
 :root {
     --Branco: #FEFEFE;
     --Preto: #0a0a0a;
-    --Cinza-Escuro: #222224;
-    --Cinza-Claro: #494949;
+    --Cinza-Escuro: #451b59;
+    --Cinza-Claro: #ae00ff;
     --Cinza_Clarissimo: #BFBFBF;
     --Azul: #000268;
     --Azul-Claro: #202291;
@@ -109,12 +109,17 @@ header a:hover{
     font-size: 20px;
 }
 
+.img img{
+    border-radius: 5%;
+}
+
 
 .img{
     width: 600px;
     height: 500px;
     box-shadow: 0 0 20px var(--Cinza-Escuro);
     transition: .5s;
+    border-radius: 5%;
 }
 
 .img:hover{
